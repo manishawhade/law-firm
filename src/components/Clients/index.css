@@ -1,0 +1,48 @@
+.arrow {
+  padding: 30px;
+  border-radius: 35px;
+  border: 0;
+}
+
+.arrow-button-prev {
+  background: url(/src/assets/left-arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #e6e6e6;
+}
+
+.arrow-button-next {
+  background: url(/src/assets/right-arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #e3b748;
+  margin-left: 10px;
+}
+
+.card1 {
+  max-width: 360px;
+  text-align: left;
+  padding: 25px;
+  display: flex;
+  flex-flow: column;
+  gap: 25px;
+  border-radius: 14px;
+  border: 1.4px solid rgba(255, 255, 255, 0.1);
+  background: #1d1d1d;
+}
+
+.card1 img {
+  width: fit-content;
+}
+
+#team_1 {
+  background: #e3b748;
+}
+
+.swiper-wrapper {
+  gap: 50px;
+}
+
+.middle-card {
+  background: #2e2e2e;
+}

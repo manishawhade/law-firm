@@ -1,0 +1,37 @@
+.cards-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+  gap: 50px;
+}
+
+.card {
+  max-width: 360px;
+  text-align: left;
+  padding: 25px;
+  display: flex;
+  flex-flow: column;
+  gap: 25px;
+  border-radius: 14px;
+  border: 1.4px solid rgba(255, 255, 255, 0.1);
+  background: #1d1d1d;
+}
+
+.card button {
+  border-radius: 43px;
+  background: #e3b748;
+  border: 0;
+  padding: 6px;
+  display: block;
+}
+
+.card img {
+  background: #fff;
+  border-radius: 44px;
+  padding: 20px;
+  width: fit-content;
+}
+
+.middle-card {
+  background: #2e2e2e;
+}

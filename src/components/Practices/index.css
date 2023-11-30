@@ -1,0 +1,9 @@
+.grid-parent {
+  position: relative;
+}
+
+.grid-child {
+  position: absolute;
+  top: 85%;
+  right: 50%;
+}
